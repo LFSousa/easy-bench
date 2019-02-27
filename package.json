@@ -1,0 +1,31 @@
+{
+  "name": "easy-bench",
+  "version": "1.0.0",
+  "description": "A benchmarking tool for easy development tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LFSousa/easy-bench.git"
+  },
+  "keywords": [
+    "benchmarking",
+    "bench",
+    "easy",
+    "rest",
+    "api"
+  ],
+  "author": "Luis Filipe Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LFSousa/easy-bench/issues"
+  },
+  "homepage": "https://github.com/LFSousa/easy-bench#readme",
+  "dependencies": {
+    "bench-rest": "^1.2.4",
+    "cli-table": "^0.3.1",
+    "progress": "^2.0.3"
+  }
+}
